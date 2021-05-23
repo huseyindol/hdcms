@@ -1,8 +1,10 @@
+import style from '../../styles/dashboard.module.scss';
+
 const dashboard = () => {
   return (
     <div className="p-3">
       <div className="pb-1">
-        <h1 className="header">Welcome To React-Bootstrap</h1>
+        <h1 className={`header ${style.Nav}`}>Welcome To React-Bootstrap</h1>
         <h2 className="header">Using Sass with custom theming</h2>
         <hr />
         <p>
