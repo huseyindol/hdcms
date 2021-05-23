@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "todohighlight.keywords": [
+    { "text": "TODO:", "color": "black" },
+    "FIXME:",
+    "DEBUG:",
+    "REVIEW:",
+    {
+      "text": "NOTE:",
+      "color": "black",
+      "backgroundColor": "lightblue",
+      "overviewRulerColor": "lightblue"
+    },
+    {
+      "text": "CHECK:",
+      "color": "#000",
+      "isWholeLine": false
+    }
+  ]
+}
